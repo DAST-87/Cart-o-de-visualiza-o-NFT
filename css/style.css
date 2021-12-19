@@ -9,7 +9,6 @@ body{
 .conteudo{
     display: flex;
     justify-content: center;
-    background-color: indianred;
     padding-top: 50px;
 }
 
@@ -34,11 +33,74 @@ body{
 .titulo{
     font-family: 'Outfit', sans-serif;
     display: flex;
-    background-color: indianred;
     width: 300px;
+    padding-top: 30px;
+    
+}
+
+.text{
+    width: 300px;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 20px;
+}
+
+.text p{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.bots{
+    font-family: 'Outfit', sans-serif;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#bot_1{
+    
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    width: 95px;
+    justify-content: space-between;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+#bot_2{
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    width: 95px;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+}
+
+.autor{
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-family: 'Outfite', sans-serif;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    
+}
+.autor img{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.autor p{
+    margin-left: 10px;
 }
 footer{
-    min-height: 100px;
+    padding-top: 100px;
+
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
