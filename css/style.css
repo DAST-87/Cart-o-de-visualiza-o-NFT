@@ -14,7 +14,7 @@ body{
 
 .card{
     background-color: hsl(216, 50%, 16%);
-    width: 350px;
+    width: 300px;
     display: flex;
     justify-content: center;
     padding: 30px;
@@ -35,6 +35,16 @@ body{
     display: flex;
     width: 300px;
     padding-top: 30px;
+    
+}
+
+.titulo h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo h1 a:hover{
+    color: hsl(178, 100%, 50%);
     
 }
 
@@ -97,6 +107,13 @@ body{
 }
 .autor p{
     margin-left: 10px;
+}
+.autor p a{
+    text-decoration: none;
+    color: white;
+}
+.autor p a:hover{
+    color: hsl(178, 100%, 50%);
 }
 footer{
     padding-top: 100px;
