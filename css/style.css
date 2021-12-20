@@ -23,6 +23,30 @@ body{
     flex-wrap: wrap;
 }
 
+.image_equi{
+    position: relative;
+}
+
+.olho{
+    position: absolute;
+      
+}
+
+.olho a img{
+    color: transparent;
+    opacity: 0;
+}
+
+.olho a img:hover{
+    color: transparent;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0.6;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    
+}
+
 .image_equi img{
     width: 300px;
     height: 300px;
@@ -57,6 +81,7 @@ body{
 .text p{
     font-weight: 300;
     color: hsl(215, 51%, 70%);
+    line-height: 25px;
 }
 
 .bots{
@@ -115,9 +140,15 @@ body{
 .autor p a:hover{
     color: hsl(178, 100%, 50%);
 }
+
+.linha{
+    width: 300px;
+    border-bottom: solid 0.1px hsl(215, 52%, 70%);
+    padding-top: 10px;
+}
 footer{
     padding-top: 100px;
 
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 12px; text-align: center; font-family: Calibri;}
+.attribution a { color: hsl(228, 70%, 71%); }
