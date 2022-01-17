@@ -87,6 +87,7 @@ body{
 .bots{
     font-family: 'Outfit', sans-serif;
     width: 300px;
+    min-width: 300px;
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -103,15 +104,17 @@ body{
     justify-content: space-between;
     font-weight: 600;
     color: hsl(178, 100%, 50%);
+    
 }
 
 #bot_2{
     align-items: center;
     display: flex;
     padding-top: 10px;
-    width: 95px;
+    width: 135px;
     justify-content: space-between;
     color: hsl(215, 51%, 70%);
+    
 }
 
 .autor{
